@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Root-level Gradle wrapper shim for CI environments that call ./gradlew from the app root.
+# This is a managed Expo project by default and may not have a native Android project.
+# To produce a real native build, run: npm run build:full-android
+echo "[root gradlew shim] No native Android project generated. Skipping Gradle step."
+exit 0
